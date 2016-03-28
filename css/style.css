@@ -57,15 +57,57 @@ font-family: 'Oswald', sans-serif;
 .recipe-text {
   line-height: 1.5;
   text-indent: 30px;
+  margin-bottom: 32px;
 }
 .ingredient-list {
-  background-image: url("../img/list-bg.png");
-  background-repeat: repeat-y;
   font-family: 'Patrick Hand', cursive;
   font-size: 24px;
+  position: relative;
+  margin-bottom: 64px;
+}
+.ingredient-list ul {
   margin-left: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .ingredient-list li {
   float: left;
   width: calc(50% - 30px);
+}
+.about-author {
+margin-bottom: 64px;
+}
+.about-author img {
+  float: left;
+  margin-right: 20px;
+}
+.author-info {
+  float: left;
+  max-width: 70%;
+}
+.share-recipe {
+  float: right;
+  font-family: 'Abel', sans-serif;
+  text-transform: uppercase;
+  max-width: 30%;
+  padding: 20px 40px;
+  background-color: #bb7056;
+  color: #f7f7f7;
+  display: block;
+  font-size: 20px;
+}
+footer {
+  border-top: 1px solid #ddd;
+  text-align: center;
+  color: #bbb;
+}
+footer p {
+  line-height: 1.5;
+  margin: 0;
+}
+footer img { margin-top: -16px;
+  border-left: 12px solid #fff;
+  border-right: 12px solid #fff;
+  margin-bottom: 32px;
 }
