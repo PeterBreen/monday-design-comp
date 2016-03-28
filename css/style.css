@@ -169,3 +169,9 @@ footer img { margin-top: -16px;
   border-right: 12px solid #fff;
   margin-bottom: 32px;
 }
+input[type=checkbox] + label {
+  text-decoration: none;
+}
+input[type=checkbox]:checked + label {
+text-decoration: line-through;
+}
