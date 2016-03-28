@@ -42,6 +42,15 @@ margin-left: 5px;
 }
 .social-share {
 float: right;
+padding-top: 24px;
+}
+.social-share img {
+  height: auto;
+  width: auto;
+  margin: 0 1px;
+}
+.rss {
+  padding-left: 8px;
 }
 header {
 margin-bottom: 64px;
