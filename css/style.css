@@ -1,0 +1,13 @@
+body, html {
+font-size: 16px;
+}
+.clearfix::after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.ingredient-list {
+  background-image: url("../img/list-bg.png");
+  background-repeat: repeat-y;
+}
