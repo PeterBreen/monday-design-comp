@@ -105,10 +105,18 @@ color: #000;
   position: absolute;
   top: 0;
   left: 0;
+  padding-top: 2px;
 }
 .ingredient-list li {
+  list-style-type: none;
   float: left;
   width: calc(50% - 30px);
+}
+.ingredient-list label {
+  padding-left: 10px;
+}
+.selected {
+text-decoration: line-through;
 }
 .about-author {
   margin-top: 32px;
