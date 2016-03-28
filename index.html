@@ -3,12 +3,19 @@
 <head>
   <title>Chocolate Pizza - </title>
   <link href="css/normalize.css" type="text/css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif|Patrick+Hand|Abel|Oswald|Yellowtail' rel='stylesheet' type='text/css'>
   <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
   <header>
     <!-- logo and social share and print/email icons -->
-    <img src="img/small-logo.png"><p>Delicious - The Best Food Blog On The Web</p>
+    <div class="delicious-logo clearfix">
+      <img src="img/logo.png">
+      <div class="logo-text">
+        <h1>Delicious</h1>
+        <p>The Best Food Blog On The Web</p>
+      </div>
+    </div>
     <div class="social-share">
       <img src="img/fb-icon.png">
       <img src="img/twit-icon.png">
@@ -19,13 +26,12 @@
       <img src="img/rss-icon.png">
       <img src="img/mail-icon.png">
     </div>
-
   </header>
     <article>
       <section class="title">
         <h1>Chocolate Pizza</h1>
         <p>Posted On 15 Dec 2013 / Desserts</p>
-        <p><img src="img/print-icon.png">Print</p>
+        <p class="title-print"><img src="img/print-icon.png">&nbsp;Print</p>
         <!-- title -->
       </section>
       <section class="feature-image">
@@ -38,7 +44,7 @@
         <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
         <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
       </section>
-      <section class="ingredient-list">
+      <section class="ingredient-list clearfix">
         <ul>
           <li>1 1/2 cups milk</li>
           <li>1 1/2 cups heavy cream</li>
