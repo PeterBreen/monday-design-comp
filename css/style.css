@@ -1,13 +1,71 @@
+/* fonts reference
+font-family: 'Droid Serif', serif;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Abel', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Yellowtail', cursive;
+*/
+
 body, html {
 font-size: 16px;
+max-width: 900px;
+margin: 0 auto;
+font-family: 'Droid Serif', serif;
 }
 .clearfix::after {
     content:"";
     display:table;
     clear:both;
 }
-
+.delicious-logo h1 {
+  font-family: 'Yellowtail', cursive;
+  margin: 0;
+}
+.delicious-logo p {
+  font-family: 'Abel', sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+.delicious-logo img {
+  float: left;
+}
+.logo-text {
+float: left;
+margin-left: 10px;
+}
+.social-share {
+float: right;
+}
+header {
+margin-bottom: 64px;
+}
+.title h1 {
+font-family: 'Oswald', sans-serif;
+}
+.title p {
+  font-family: 'Abel', sans-serif;
+  text-transform: uppercase;
+  display: inline;
+  float: left;
+}
+.title p:last-child {
+  float: right;
+}
+.title img {
+  display: inline;
+}
+.recipe-text {
+  line-height: 1.5;
+  text-indent: 30px;
+}
 .ingredient-list {
   background-image: url("../img/list-bg.png");
   background-repeat: repeat-y;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 24px;
+  margin-left: 30px;
+}
+.ingredient-list li {
+  float: left;
+  width: calc(50% - 30px);
 }
